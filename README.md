@@ -1,3 +1,6 @@
++++
+
++++
 # Hugo Twenty Twenty Forestry starter
 
 [Twenty Twenty theme](https://github.com/themefisher/twenty-twenty-hugo) is developed by Themefisher.
@@ -8,8 +11,8 @@
 
 ## Requirements
 
-- GitHub, GitLab or BitBucket account
-- Hugo > 0.62.2
+* GitHub, GitLab or BitBucket account
+* Hugo > 0.62.2
 
 ## Content Management
 
@@ -17,7 +20,7 @@
 
 ![Forestry admin interface](./images/forestry-admin.png)
 
-This project has been pre-configured to work with [Forestry](https://forestry.io) a git-based CMS, [import your repository in Forestry](https://app.forestry.io/quick-start?repo=DirtyF/hugo-twenty-twenty-forestry&engine=hugo&version=0.74.3) and you'll be able to edit and preview your site ✨. \
+This project has been pre-configured to work with [Forestry](https://forestry.io) a git-based CMS, [import your repository in Forestry](https://app.forestry.io/quick-start?repo=DirtyF/hugo-twenty-twenty-forestry&engine=hugo&version=0.74.3) and you'll be able to edit and preview your site ✨. \\
 
 Any changes you make in Forestry will be commited back to the repo and automatically deployed, e.g with [Vercel](#vercel) or [Netlify](#netlify).
 
@@ -45,7 +48,7 @@ Copy-paste your Git repository URL, accept default settings and click deploy ✨
 1. Set the build command to: `hugo --gc --minify`
 2. Set the publish directory to: `public`
 3. Make sure to set `HUGO_VERSION` to 0.62.2 or above (tested with 0.74.3)
-3. Set the publish directory to: `public`
+4. Set the publish directory to: `public`
 
 That's it, now your site gets deployed automatically on `git push` or when saving documents from Forestry.
 
